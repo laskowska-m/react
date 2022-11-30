@@ -1,26 +1,25 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import ImageTextSection from './components/ImageTextSection/ImageTextSection';
+import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import { Route, Routes } from 'react-router-dom';
+
 function App() {
-  let component
-  switch (window.location.pathname){
-    case "/":
-      component = <App/>
-      break
-    case "/about":
-      component = <About/>
-      break
-    case "/contact":
-      component = <Contact/>
-      break
-    }
+
   return (
     <div className="App">
-      <Navbar/>
-      {component}
-      <ImageTextSection />
+      <Navbar />
+      <div className='page'>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
+      </div>
+
+      
     </div>
   );
 }

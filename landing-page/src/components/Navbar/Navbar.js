@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import NavbarMenu from './NavbarMenu';
 import './Navbar.css';
 export default function Navbar() {
@@ -6,7 +7,7 @@ export default function Navbar() {
     return (
         <nav className="nav">
             <NavbarMenu/>
-            <a href='/' className="site-title">Landie</a>
+            <Link to='/' className="site-title">Landie</Link>
 
         </nav>
     )
