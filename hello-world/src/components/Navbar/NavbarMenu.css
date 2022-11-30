@@ -1,0 +1,13 @@
+.navbar-menu ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav li.active{
+    color: #111B47;
+}
+
+.nav li:hover{
+    color: #454E54;
+}
