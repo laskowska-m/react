@@ -1,7 +1,7 @@
 .btn-component{
+    background-color: #111B47;
     color: #fff;
     font-weight: 500;
-    background: #111B47;
     border-radius: 2px;
     border: none;
     min-width: 160px;
@@ -9,12 +9,13 @@
     cursor: pointer;
 }
 
-button .big{
+.btn-component.big{
     min-width: 190px;
     font-size: 16px;
 }
 
-button .secondary{
-    background: transparent;
-    border: 1px solid #454E54;
+.btn-component.secondary{
+    background-color: transparent;
+    border: 2px solid #454E54;
+    color: #454E54;
 }
