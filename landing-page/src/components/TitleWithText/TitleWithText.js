@@ -3,7 +3,7 @@ import './TitleWithText.css'
 
 export default function TitleWithText() {
     return (
-        <div className="TitleWithText">
+        <div className="title-with-text">
             <h2>Introduce Your Product Quickly & Effectively</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.

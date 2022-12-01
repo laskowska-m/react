@@ -4,10 +4,16 @@
     gap: 2rem;
 }
 
-.nav li.active{
+.navbar-menu a{
+    color: inherit;
+    text-decoration: none;
+    transition: 0.7s all ease;
+}
+
+.navbar-menu li.active{
     color: #111B47;
 }
 
-.nav li:hover{
+.navbar-menu li:hover{
     color: #454E54;
 }

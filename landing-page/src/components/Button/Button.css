@@ -1,0 +1,20 @@
+.btn-component{
+    color: #fff;
+    font-weight: 500;
+    background: #111B47;
+    border-radius: 2px;
+    border: none;
+    min-width: 160px;
+    padding: 5px 0 ;
+    cursor: pointer;
+}
+
+button .big{
+    min-width: 190px;
+    font-size: 16px;
+}
+
+button .secondary{
+    background: transparent;
+    border: 1px solid #454E54;
+}
