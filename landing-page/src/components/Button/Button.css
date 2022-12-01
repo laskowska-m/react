@@ -1,9 +1,8 @@
 .btn-component{
-    background-color: #111B47;
-    color: #fff;
+    border: 2px solid #454E54;
+    color: #454E54;
     font-weight: 500;
     border-radius: 2px;
-    border: none;
     min-width: 160px;
     padding: 5px 0 ;
     cursor: pointer;
@@ -14,8 +13,10 @@
     font-size: 16px;
 }
 
+
+
 .btn-component.secondary{
-    background-color: transparent;
-    border: 2px solid #454E54;
-    color: #454E54;
+    background-color: #111B47;
+    color: #fff;
+    border: none;
 }

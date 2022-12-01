@@ -6,10 +6,10 @@ import Button from '../Button/Button';
 export default function Navbar() {
 
     return (
-        <nav className="navbar">
+        <nav className='site-title'>
             <NavbarMenu />
-            <Link to='/' className="site-title">Landie</Link>
-            <Button>Buy Now</Button>
+            <Link to='/' className='site-title'>Landie</Link>
+            <Button className='secondary'>Buy Now</Button>
         </nav>
     )
 }
