@@ -1,8 +1,4 @@
-.navbar-menu ul{
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-}
+
 
 .navbar-menu a{
     color: inherit;

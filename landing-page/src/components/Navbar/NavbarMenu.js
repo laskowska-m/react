@@ -5,9 +5,9 @@ import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 export default function NavbarMenu() {
     return (
         <div className='navbar-menu flex'>
-            <ul>
-                <CustomLink to="/">Home</CustomLink>
-                <CustomLink to="/about">About</CustomLink>
+            <ul className='flex'>
+                <CustomLink className='pr-[60px]' to="/">Home</CustomLink>
+                <CustomLink className='pr-[60px]' to="/about">About</CustomLink>
                 <CustomLink to="/contact">Contact</CustomLink>
 
             </ul>

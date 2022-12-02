@@ -1,7 +1,7 @@
 .btn-component{
     border: 2px solid #454E54;
     color: #454E54;
-    font-weight: 500;
+    /* font-weight: 500; */
     border-radius: 2px;
     min-width: 160px;
     padding: 5px 0 ;

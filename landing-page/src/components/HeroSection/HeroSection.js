@@ -6,7 +6,7 @@ import './HeroSection.css'
 
 export default function HeroSection() {
     return (
-        <div className='hero-section flex space-between v-center'>
+        <div className='hero-section flex space-between items-center mt-52'>
             <div>
                 <HeadingWithParagraph title='Introduce Your Product Quickly & Effectively' headingLevel='h1' paragraph='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.' />
                 <div className='flex space-between'>
