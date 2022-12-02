@@ -8,8 +8,8 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
 
   return (
-    <div className="App relative">
-        <div className='hero-bg-shape'></div>
+    <div className="App relative overflow-hidden">
+        
       <Navbar />
       <div className='page'>
         <Routes>

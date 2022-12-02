@@ -9,7 +9,7 @@ export default class HeadingWithParagraph extends Component {
         const Title = validHeadingLevels.includes(safeHeading) ? safeHeading : 'p';
 
         return (
-            <div className='heading-paragraph-container table'>
+            <div className='heading-paragraph-container'>
                 <Title className='text-title-grey'>{title}</Title>
                 <p className='mt-5 text-txt-gray'>{p1}</p>
                 <p className='mt-5 text-txt-gray'>{p2}</p>

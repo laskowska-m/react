@@ -1,11 +1,2 @@
-.hero-bg-shape{
-  background-image: url(./img/hero-shape.png);
-  width: 62.5rem;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  right: -20px;
-  z-index: -1;
-}
 
 

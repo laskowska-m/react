@@ -8,9 +8,13 @@ export default function Home() {
     return (
         <>
             <HeroSection/> 
-            <div className='mt-36'>
-                <HeadingWithParagraph title='Light, Fast & Powerful' headingLevel='h2' p1='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus' p2='mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.' />
-            </div>
+            <section className='mt-36'>
+                <ImageTextSection/>
+            </section>
+            <section className='my-28'>
+                <ImageTextSection/>
+            </section>
+            
         </>
 
     )
