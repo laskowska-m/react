@@ -6,7 +6,7 @@ import Button from '../Button/Button';
 export default function Navbar() {
 
     return (
-        <nav className="navbar flex justify-between items-center max-w-[1060px] mx-auto py-5">
+        <nav className="navbar flex justify-between items-center max-w-[1080px] mx-auto py-[15px]">
             
                 <NavbarMenu />
                 <Link to='/' className="site-title text-dark-purple">Landie</Link>

@@ -1,9 +1,0 @@
-.ImageTextSection{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.section-img{
-    width: 30rem;
-}

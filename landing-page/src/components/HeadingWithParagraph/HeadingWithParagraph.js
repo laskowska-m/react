@@ -2,16 +2,17 @@ import React, { Component } from 'react'
 
 export default class HeadingWithParagraph extends Component {
     render() {
-        const { title, paragraph, headingLevel } = this.props;
+        const { title, p1, p2, headingLevel } = this.props;
         const validHeadingLevels = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
 
         const safeHeading = headingLevel ? headingLevel.toLowerCase() : '';
         const Title = validHeadingLevels.includes(safeHeading) ? safeHeading : 'p';
 
         return (
-            <div className='heading-paragraph-container'>
-                <Title>{title}</Title>
-                <p>{paragraph}</p>
+            <div className='heading-paragraph-container table'>
+                <Title className='text-title-grey'>{title}</Title>
+                <p className='mt-5 text-txt-gray'>{p1}</p>
+                <p className='mt-5 text-txt-gray'>{p2}</p>
             </div>
         );
     }
