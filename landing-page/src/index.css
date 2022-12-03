@@ -39,21 +39,12 @@ h1{
 
 h2{
   font-size: 36px;
-line-height: 48px;
+  line-height: 48px;
 }
 
-/* .d-flex {
-display: flex;
-} */
-
-.justify-content-between{
-justify-content: space-between;
+p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-.v-center{
-  align-items: center;
-}
-
-.relative{
-  position: relative;
-}
