@@ -1,20 +1,24 @@
-import React from 'react'
+import React, { Component } from 'react';
 import HeadingWithParagraph from '../HeadingWithParagraph/HeadingWithParagraph';
-import sectionImg from '../../img/section_1.svg';
 
-export default function ImageTextSection() {
+export default class ImageTextSection extends Component {
+  render() {
+    const { image, title, p1, p2, headingLevel } = this.props;
+
     return (
         <div className="max-w-[1080px] gap-[30px] mx-auto flex items-center">
-            <div className='w-1/2'>
-                <HeadingWithParagraph title='Light, Fast & Powerful' headingLevel='h2' p1='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus' p2='mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.' />
+        <div className='w-1/2'>
+            <HeadingWithParagraph title={title} headingLevel={headingLevel} p1={p1} p2={p2} />
 
-            </div>
-            <div className=''>
-                <img src={sectionImg} className="section-img " alt="" />
-
-            </div>
         </div>
-    );
+        <div className=''>
+            <img src={image} className="section-img " alt="" />
+
+        </div>
+    </div>
+    )
+  }
 }
+
 
 
