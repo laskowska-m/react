@@ -1,6 +1,7 @@
 import React from 'react';
 import NavbarMenu from '../Navbar/NavbarMenu';
 import Button from '../Button/Button';
+import SocialMenu from '../Socialmenu/SocialMenu';
 
 export default function footer() {
   return (
@@ -11,8 +12,9 @@ export default function footer() {
                 <h2 className='text-dark-purple text-[26px] font-black'>Landie</h2>
                 <Button className='secondary text-[12px] min-w-0 px-4'>Purchase now</Button>
             </div>
-            <div className='flex justify-between items-center py-5 border-t-solid border-t-[1px] border-t-[#CDD1D4]'>
+            <div className='flex justify-between items-center pt-5  pb-6 border-t-solid border-t-[2px] border-t-[#CDD1D4]'>
                 <NavbarMenu className='text-[#929ECC]' />
+                <SocialMenu />
             </div>
         </div>
 
