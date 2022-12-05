@@ -11,8 +11,8 @@ export default class HeadingWithParagraph extends Component {
         return (
             <div className='heading-paragraph-container'>
                 <Title>{title}</Title>
-                <p className='text-txt-gray'>{p1}</p>
-                <p className='text-txt-gray'>{p2}</p>
+                <p>{p1}</p>
+                <p>{p2}</p>
             </div>
         );
     }

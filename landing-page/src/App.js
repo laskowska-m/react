@@ -8,7 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
 
   return (
-    <div className="App relative overflow-hidden">
+    <div className="App relative overflow-hidden text-txt-gray">
         
       <Navbar />
       <div className='page'>
