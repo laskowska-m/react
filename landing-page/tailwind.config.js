@@ -13,6 +13,8 @@ module.exports = {
         'txt-gray': '#5D6970',
         'price-color': '#222F65',
         'section-bg': '#E7ECFF',
+        'footer-icons': '#B0B8BC',
+
       },
     },
   },

@@ -10,9 +10,7 @@ export default function PricingSection() {
                 <p className='text-price-color font-medium text-[50px] py-4 mt-[30px]'>$40</p>
                 <p className='text-dark-purple text-base py-1 mb-[60px]'>UI Design Kit</p>
                 <p className='text-[14px] pb-1'>See, One price. Simple.</p>
-                <Button className='secondary big'>Purchase Now</Button>
+                <Button className='secondary big self-start'>Purchase Now</Button>
             </div>
-
-
     )
 }

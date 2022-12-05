@@ -13,3 +13,9 @@
 .navbar-menu li:hover{
     color: #454E54;
 }
+
+footer .navbar-menu li,
+footer .navbar-menu li.active{
+    color: #929ECC;
+    font-size: 14px;
+}
