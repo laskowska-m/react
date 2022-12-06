@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App relative overflow-hidden text-txt-gray">
-        
+
       <Navbar />
       <div className='page'>
         <Routes>

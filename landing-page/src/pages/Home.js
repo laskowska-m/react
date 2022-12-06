@@ -1,12 +1,11 @@
 import React from 'react';
-import ImageTextSection from '../components/ImageTextSection/ImageTextSection.js'
 import HeroSection from '../components/HeroSection/HeroSection.js';
+import ImageTextSection from '../components/ImageTextSection/ImageTextSection.js'
 import IconTitleTextList from '../components/IconTitleTextList/IconTitleTextList.js';
 import PricingSection from '../components/PricingSection/PricingSection.js';
-import sectionImg1 from '../img/section_1.svg'
-import sectionImg2 from '../img/section_2.svg'
+import sectionImg1 from '../img/section_1.svg';
+import sectionImg2 from '../img/section_2.svg';
 import sectionIcon from '../img/section_icon.svg';
-
 
 export default function Home() {
     return (
@@ -23,7 +22,6 @@ export default function Home() {
             </div>
             <section className='lg:py-[200px] py-[100px] text-center bg-section-bg/50 relative before:rounded-[50%] before:bg-white before:w-[120%] before:h-[120px] before:absolute before:top-[-55px] before:left-[-10%] '>
                 <PricingSection />
-
             </section>
         </>
 
