@@ -5,8 +5,8 @@ import SocialMenu from '../Socialmenu/SocialMenu';
 
 export default function footer() {
   return (
-    <footer className='bg-section-bg full-w'>
-        <div className='max-w-[1100px] mx-auto'>
+    <footer className='bg-section-bg full-w pt-5'>
+        <div className='max-w-[1100px] lg:mx-auto mx-5'>
             <div className='flex justify-between items-center py-5'>
                 <p className='text-[14px] text-[#939EA4]'>©2020 Yourcompany</p>
                 <h2 className='text-dark-purple text-[26px] font-black'>Landie</h2>
