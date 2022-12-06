@@ -1,10 +1,10 @@
 import React from 'react';
-import './NavbarMenu.css';
+import './Menu.css';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
-export default function NavbarMenu() {
+export default function Menu() {
     return (
-        <div className='navbar-menu flex'>
+        <div className='menu flex'>
             <ul className='flex gap-[60px]'>
                 <CustomLink to="/">Home</CustomLink>
                 <CustomLink to="/about">About</CustomLink>

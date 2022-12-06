@@ -1,17 +1,17 @@
-.navbar-menu a{
+.menu a{
     transition: 0.5s all ease;
 }
 
-.navbar-menu li.active{
+.menu li.active{
     color: #111B47;
 }
 
-.navbar-menu li:hover{
+.menu li:hover{
     color: #454E54;
 }
 
-footer .navbar-menu li,
-footer .navbar-menu li.active{
+footer .menu li,
+footer .menu li.active{
     color: #929ECC;
     font-size: 14px;
 }
