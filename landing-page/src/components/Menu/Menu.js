@@ -2,15 +2,13 @@ import React from 'react';
 import './Menu.css';
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
-export default function Menu() {
+export default function Menu({className}) {
     return (
-        <div className='menu flex'>
-            <ul className='flex gap-[60px]'>
+            <ul className={`flex ${className}`}>
                 <CustomLink to="/">Home</CustomLink>
                 <CustomLink to="/about">About</CustomLink>
                 <CustomLink to="/contact">Contact</CustomLink>
             </ul>
-        </div>
     )
 }
 
