@@ -3,11 +3,11 @@
 }
 
 .menu li.active{
-    color: #111B47;
+    color: #454E54;
 }
 
 .menu li:hover{
-    color: #454E54;
+    color: #111B47;
 }
 
 footer .menu li,

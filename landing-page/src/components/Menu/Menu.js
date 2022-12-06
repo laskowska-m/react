@@ -4,7 +4,7 @@ import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
 export default function Menu({className}) {
     return (
-            <ul className={`flex ${className}`}>
+            <ul className={`menu flex ${className}`}>
                 <CustomLink to="/">Home</CustomLink>
                 <CustomLink to="/about">About</CustomLink>
                 <CustomLink to="/contact">Contact</CustomLink>
