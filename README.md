@@ -1,5 +1,4 @@
-# react
-Landing page with React.js and TailwindCSS 
+# React Landing Page + TailwindCSS
 
 #### Installation:  
 
