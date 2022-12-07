@@ -7,7 +7,7 @@ import './HeroSection.css';
 export default function HeroSection() {
     return (
         <div className='hero-section lg:pb-40'>
-            <div className='hero-bg-shape'></div>
+            <div className='hero-bg-shape md:block hidden'></div>
             <img src={sectionImg} className="hero-img lg:w-[650px] md:w-[400px] absolute lg:top-[16rem] top-[8.5rem] right-[-2rem] md:block hidden" alt="" />
 
             <div className='md:flex items-center lg:mt-[170px] lg:pb-[200px] md:max-w-[1100px] gap-[30px] lg:mx-auto mx-5 relative'>

@@ -13,15 +13,15 @@ export default function Home() {
         <>
             <div className='max-w-[1100px] lg:mx-auto mx-5'>
                 <HeroSection />
-                <section className='py-20 lg:mt-20'>
+                <section className='lg:mt-20 py-20'>
                     <ImageSection className='lg:flex-row flex-col-reverse' image={sectionImg1} >
                         <HeadingWithParagraph headingLevel='h2' title='Light, Fast & Powerful' p1='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus' p2='mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.' />
-                        <IconTitleTextList className='pt-[40px] my-[40px] gap-[30px]' headingLevel='h3' icon={sectionIcon} title='Title Goes Here' p='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.' />
+                        <IconTitleTextList className='lg:pt-[40px] my-[40px] gap-[30px]' headingLevel='h3' icon={sectionIcon} title='Title Goes Here' p='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.' />
 
                     </ImageSection>
                 </section>
-                <section className='py-40'>
-                    <ImageSection className='lg:flex-row-reverse flex-col-reverse gap-[100px] ml-[25px]' image={sectionImg2} >
+                <section className='lg:py-40 pb-[50px]'>
+                    <ImageSection className='lg:flex-row-reverse flex-col-reverse lg:gap-[100px] gap-[30px] ml-[25px]' image={sectionImg2} >
                         <HeadingWithParagraph headingLevel='h2' title='Light, Fast & Powerful' p1='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus' p2='mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.' />
                     </ImageSection>
                 </section>
